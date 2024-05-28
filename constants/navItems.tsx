@@ -4,8 +4,8 @@ export const navItems = [
     link: '/#features',
   },
   {
-    name: "About Us",
-    link: "/#about-us",
+    name: "Team",
+    link: "/#team",
   },
   // {
   //   name: "Pricing",

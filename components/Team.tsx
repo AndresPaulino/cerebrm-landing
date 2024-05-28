@@ -19,7 +19,7 @@ const items = [
 
 export const Team = () => {
   return (
-    <div className='flex flex-col justify-center items-center mb-2'>
+    <div id='team' className='flex flex-col justify-center items-center mb-2'>
       <div className='flex justify-center items-center '>
         <AnimatedTooltip items={items} />
       </div>
