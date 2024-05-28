@@ -17,7 +17,7 @@ export const CTA = ({ headerText, bodyText }: any) => {
 
       <div className=' lg:grid lg:grid-cols-1 gap-10 p-2 md:p-8 relative z-20'>
         <div className='text-center lg:text-left'>
-          <h2 className='text-2xl md:text-4xl font-bold my-4  text-center'>{headerText || `So what are you waiting for?`}</h2>
+          <h2 className='text-2xl md:text-4xl font-bold my-4  text-center'>CEREB[RM]</h2>
           <p className='my-4 text-base text-gray-300 md:text-lg tracking-wide font-light  text-center max-w-lg mx-auto mb-4'>
             Harness the Power of A.I. Powered (SaaS) that autonomously deploys your Expertise, Intuition & Strategies.
             <br />

@@ -6,12 +6,14 @@ const items = [
     name: 'Johnly Alvarado',
     designation: 'Founder & CEO',
     image: '/images/johnly.jpg',
+    linkedin: 'https://www.linkedin.com/in/johnlyalvarado/',
   },
   {
     id: 2,
     name: 'Andres Paulino',
     designation: 'Co-Founder & CTO',
     image: '/images/andres.jpg',
+    linkedin: 'https://www.linkedin.com/in/andrespaulino/',
   },
 ];
 

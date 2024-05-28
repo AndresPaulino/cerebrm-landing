@@ -11,6 +11,7 @@ export const AnimatedTooltip = ({
     name: string;
     designation: string;
     image: string;
+    linkedin: string;
   }[];
 }) => {
   const [hoveredIndex, setHoveredIndex] = useState<number | null>(null);
@@ -67,9 +68,10 @@ export const AnimatedTooltip = ({
             onMouseMove={handleMouseMove}
             height={300} // updated from 100 to 300
             width={300} // updated from 100 to 300
+            onClick={() => window.open(item.linkedin, '_blank')}
             src={item.image}
             alt={item.name}
-            className='object-cover mx-6 object-top rounded-full h-36 w-36 border-2 group-hover:scale-105 group-hover:z-30 border-white relative transition duration-500'
+            className='object-cover mx-6 object-top rounded-full h-36 w-36 border-2 group-hover:scale-105 group-hover:z-30 border-white relative transition duration-500 cursor-pointer'
           />
         </div>
       ))}
