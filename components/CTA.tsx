@@ -6,7 +6,7 @@ import { Boxes } from './ui/background-boxes';
 export const CTA = ({ headerText, bodyText }: any) => {
   return (
     <div className='relative rounded-2xl bg-vulcan-700 mx-4  mb-20 mt-20 text-gray-100 max-w-6xl lg:mx-auto  min-h-96 h-full  overflow-hidden pb-4'>
-      <Boxes />
+      {/* <Boxes /> */}
       <div
         className='absolute inset-0 top-0  bg-grid-vulcan-500'
         style={{

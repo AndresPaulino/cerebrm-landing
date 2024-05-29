@@ -18,10 +18,10 @@ module.exports = {
         },
       },
       colors: {
-        primary: '#11B460',
-        secondary: '#3C4048',
-        tertiary: '#B2B2B2',
-        quaternary: '#EAEAEA',
+        primary: '#62A388',
+        secondary: '#CFFCC1',
+        tertiary: '#83BAA0',
+        quaternary: '#004237',
         vulcan: {
           50: '#f4f4f4',
           100: '#e8e8e9',
