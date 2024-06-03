@@ -16,7 +16,7 @@ const Home: NextPage = () => {
       {/* <Testimonials /> */}
       {/* <Pricing /> */}
       <CTA />
-      {/* <BackgroundBeams /> */}
+      <BackgroundBeams />
       {/* <Team /> */}
     </Container>
   );

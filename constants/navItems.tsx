@@ -1,11 +1,11 @@
 export const navItems = [
   {
-    name: 'Features',
-    link: '/#features',
+    name: 'About',
+    link: '/#about',
   },
   {
-    name: "Team",
-    link: "/#team",
+    name: "Features",
+    link: "/#features",
   },
   // {
   //   name: "Pricing",

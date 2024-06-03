@@ -29,7 +29,7 @@ export const CTA = ({ headerText, bodyText }: any) => {
           <div className='flex justify-center'>
             <Button as='button' variant='large' className='rounded-2xl py-2'>
               <Link href='https://docs.google.com/forms/d/e/1FAIpQLSdvsUb9U9rDjWVUJoVDT_Z6cHLnh_7SOhMe95ZExaMnTMjQQg/viewform'>
-                Book a Demo
+                Demo
               </Link>
             </Button>
           </div>
