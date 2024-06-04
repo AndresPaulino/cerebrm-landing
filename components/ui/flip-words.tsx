@@ -50,7 +50,10 @@ export const FlipWords = ({ words, duration = 3000, className }: { words: string
           scale: 2,
           position: 'absolute',
         }}
-        className={cn('z-10 inline-block relative text-left text-neutral-900 dark:text-neutral-100 px-2', className)}
+        className={cn(
+          'z-10 relative text-left text-neutral-900 dark:text-neutral-100 px-2 w-[100%] justify-center items-center flex',
+          className
+        )}
         key={currentWord}
       >
         {currentWord.split('').map((letter, index) => (

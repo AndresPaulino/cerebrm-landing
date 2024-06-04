@@ -9,7 +9,7 @@ export function CardPattern({ mouseX, mouseY, ...gridProps }: any) {
   return (
     <div className='pointer-events-none'>
       <motion.div
-        className='absolute inset-0 rounded-2xl bg-gradient-to-r from-primary to-#CFFCC1 via-#CFFCC1 transition duration-300 group-hover:opacity-30 '
+        className='absolute inset-0 rounded-2xl bg-gradient-to-r from-primary to-#CFFCC1 via-#CFFCC1 transition duration-300 group-hover:opacity-10 '
         style={style}
       />
     </div>
