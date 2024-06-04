@@ -51,7 +51,7 @@ export const FlipWords = ({ words, duration = 3000, className }: { words: string
           position: 'absolute',
         }}
         className={cn(
-          'z-10 relative text-left text-neutral-900 dark:text-neutral-100 px-2 w-[100%] justify-center items-center flex',
+          'z-10 sm:absolute md:relative text-left text-neutral-900 dark:text-neutral-100 px-2 w-[100%] justify-center items-center flex',
           className
         )}
         style={{
