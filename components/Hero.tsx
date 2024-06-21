@@ -47,7 +47,7 @@ export const Hero = () => {
         />
       </div>
       <div className='relative z-10 max-w-7xl mx-auto mt-32 min-w-[200px] min-h-[50px]'>
-        <h1 className='font-semibold text-4xl sm:text-7xl text-center max-w-5xl mx-auto text-zinc-800 leading-tight tracking-tight'>
+        <h1 className='font-semibold text-4xl sm:text-7xl text-center max-w-5xl mx-auto text-zinc-800 leading-tight tracking-tight min-w-[200px] min-h-[50px]'>
           Make Your <br /> Investing & Trading Strategies <br />
           <span className='text-primary h-10 min-w-[200px] min-h-[50px]'>
             <FlipWords words={words} />
