@@ -32,13 +32,13 @@ export const features = [
   {
     heading: 'Scale',
     description:
-      'nstantly scale your strategies across different instruments and opportunities with similar profiles, allowing you to virtually be in every place at once.',
+      'Instantly scale your strategies across different instruments and opportunities with similar profiles, allowing you to virtually be in every place at once.',
     icon: <FaChartLine className='text-primary h-4 w-4 relative z-50' />,
   },
   {
     heading: 'Analytics',
     description:
-      "Generate comprehensive analytics from your winning & losing strategies. Qualitative & quantitative stats that will empower you to actively address what is and isn't working, in real time.",
+      "Generate comprehensive analytics on your winning & losing strategies. Qualitative & quantitative stats that will empower you to actively address what is and isn't working, in real time.",
     icon: <TbReportAnalytics className='text-primary h-4 w-4 relative z-50' />,
   },
 ];
